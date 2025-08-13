@@ -3,7 +3,7 @@ package sms;
 public class Student {
     private final int id;
     private final String name;
-    private double grade;
+    private double grade;  
 
     public Student(int id, String name) {
         if (id <= 0) {
