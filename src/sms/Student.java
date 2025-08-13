@@ -13,7 +13,7 @@ public class Student {
             throw new IllegalArgumentException("Name must not be blank.");
         }
         this.id = id;
-        this.name = name.trim();
+        this.name = name.trim(); 
         this.grade = 0.0; // default grade here
     }
 
